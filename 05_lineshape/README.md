@@ -269,7 +269,7 @@ Here $\bf{v}$ are the phonon group velocities, which in general have both diagon
 
 where $a_{\textbf{q}s}$ and $a^{\dagger}_{\bar{\textbf{q}}s}$ are the phonon annhihilation and creation operators in reciprocal space.
 
-Substituting S(t) into the Green-Kubo equation we obtain
+Substituting $\textbf{S}(t)$ into the Green-Kubo equation for $\kappa$ we obtain
 
 <p>$$\kappa = \frac{1}{4k_BT^2V} \sum_{\textbf{q} s_1 s_2} \sum_{\textbf{q'} s_3 s_4} \omega_{\textbf{q} s_1} \omega_{\textbf{q'} s_2} \textbf{v}_{\textbf{q} s_1 s_2} \otimes \textbf{v}_{\textbf{q'} s_3 s_4} \int^{\infty}_0 \langle B_{\textbf{q} s_1}(t) A_{\bar{\textbf{q}} s_2}(t) B_{\textbf{q'} s_3} A_{\bar{\textbf{q}'} s_4} \rangle ~dt$$<p>
 
