@@ -300,7 +300,7 @@ with $c_v(\Omega)$ the system's heat capacity in its frequency dependent form, d
 
 <p>$$c_v(\Omega) = \frac{\Omega^2}{k_B T^2} n(\Omega) (n(\Omega)+1)$$<p>
 
-This corresponds to equation (6) in [7] and it is what TDEP returns when it calculates the spectral thermal conductivity, as well as the spectrally and mode decomposed $\kappa^{\alpha \beta}_{s_1 s_2}(\Omega)$ where the integral over the frequency and sum over modes aren't performed but the sum over q is. With this result, are now able to calculate the spectral thermal conductivity of our system as long as we are able to perform the frequency integral above.
+This corresponds to equation (6) in [7] and it is what TDEP returns when it calculates the spectral thermal conductivity, as well as the spectrally and mode decomposed $\kappa^{\alpha \beta}_{s_1 s_2}(\Omega)$ where the integral over the frequency and sum over modes aren't performed but the sum over q is. With this result, we are now able to calculate the thermal conductivity from the Green-Kubo formula for our system as long as we can perform the frequency integral above. This is done in TDEP by using the --grid calculation mode from lineshape.
 
 
 ## Grid
