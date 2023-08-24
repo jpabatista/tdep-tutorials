@@ -261,7 +261,7 @@ In order to evaluate $\kappa$, we start by writing the expression for the heat c
 
 <p>$$\textbf{S}(t) = \frac{1}{2V} \sum_{\textbf{q} s_1 s_2} \omega_{\textbf{q} s_1} \textbf{v}_{\textbf{q} s_1 s_2} B_{\textbf{q} s_1}(t) A_{\bar{\textbf{q}} s_2}(t)$$<p>
 
-Here $\bf{v}$ are the off-diagonal phonon group velocities and couple phonons with the same momentum in different bands, while B and A are the momentum and displacement operators in the phonon representation [6]:
+Here $\bf{v}$ are the phonon group velocities, which in general have both diagonal and off-diagonal components, and couple phonons with the same momentum in different bands, while B and A are the momentum and displacement operators in the phonon representation [6]:
 
 <p>$$A_{\textbf{q}s} = a_{\textbf{q}s} + a^{\dagger}_{\bar{\textbf{q}}s} \propto \sum_{i \alpha} \zeta^{i \alpha}_{\textbf{q}s} u_{i \alpha} e^{-i \textbf{q} \cdot \textbf{r}_i}$$<p>
 
